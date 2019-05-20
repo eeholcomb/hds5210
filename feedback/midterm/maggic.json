@@ -1,0 +1,106 @@
+{
+    "risk_factors": {
+        "male": 1,
+        "smoker": 1,
+        "diabetic": 3,
+        "copd": 2,
+        "heart failure first diagnosed >= 18 months ago": 2,
+        "not on beta blocker": 3,
+        "not on ace-i/arb": 1
+    },
+    "ejection_fraction": [
+        { "min":  0, "max": 20,  "points": 7 },
+        { "min": 20, "max": 25,  "points": 6 },
+        { "min": 25, "max": 30,  "points": 5 },
+        { "min": 30, "max": 35,  "points": 3 },
+        { "min": 35, "max": 40,  "points": 2 },
+        { "min": 40, "max": 100, "points": 0 }
+    ],
+    "nhya_class": {
+        "1": 0,
+        "2": 2,
+        "3": 6,
+        "4": 8
+    },
+    "creatinine_level": [
+        { "min": 0, "max": 90, "points": 0 },
+        { "min": 90, "max": 110, "points": 1 },
+        { "min": 110, "max": 130, "points": 2 },
+        { "min": 130, "max": 150, "points": 3 },
+        { "min": 150, "max": 170, "points": 4 },
+        { "min": 170, "max": 210, "points": 5 },
+        { "min": 210, "max": 250, "points": 6 },
+        { "min": 250, "max": 9999, "points": 8 }
+    ],
+    "bmi": [
+        { "min":  0, "max": 15, "points": 6 },
+        { "min": 15, "max": 20, "points": 5 },
+        { "min": 20, "max": 25, "points": 3 },
+        { "min": 25, "max": 30, "points": 2 }
+    ],
+    "ef_bp_and_age": [
+        { 
+            "min":  0, "max": 30,
+            "bp": [
+                { "min":   0, "max": 110, "points": 5 },
+                { "min": 110, "max": 120, "points": 4 },
+                { "min": 120, "max": 130, "points": 3 },
+                { "min": 130, "max": 140, "points": 2 },
+                { "min": 140, "max": 150, "points": 1 },
+                { "min": 150, "max": 999, "points": 0 }
+            ],
+            "age": [
+                { "min":   0, "max":  55, "points": 0 },
+                { "min":  55, "max":  60, "points": 1 },
+                { "min":  60, "max":  65, "points": 2 },
+                { "min":  65, "max":  70, "points": 4 },
+                { "min":  70, "max":  75, "points": 6 },
+                { "min":  75, "max":  80, "points": 8 },
+                { "min":  80, "max": 999, "points": 10 }
+            ]
+        },
+        
+        { 
+            "min":  30, "max": 40,
+            "bp": [
+                { "min":   0, "max": 110, "points": 3 },
+                { "min": 110, "max": 120, "points": 2 },
+                { "min": 120, "max": 130, "points": 1 },
+                { "min": 130, "max": 140, "points": 1 },
+                { "min": 140, "max": 150, "points": 0 },
+                { "min": 150, "max": 999, "points": 0 }
+            ],
+            "age": [
+                { "min":   0, "max":  55, "points": 0 },
+                { "min":  55, "max":  60, "points": 2 },
+                { "min":  60, "max":  65, "points": 4 },
+                { "min":  65, "max":  70, "points": 6 },
+                { "min":  70, "max":  75, "points": 8 },
+                { "min":  75, "max":  80, "points": 10 },
+                { "min":  80, "max": 999, "points": 13 }
+            ]
+        },
+        
+        { 
+            "min":  40, "max": 100,
+            "bp": [
+                { "min":   0, "max": 110, "points": 2 },
+                { "min": 110, "max": 120, "points": 1 },
+                { "min": 120, "max": 130, "points": 1 },
+                { "min": 130, "max": 140, "points": 0 },
+                { "min": 140, "max": 150, "points": 0 },
+                { "min": 150, "max": 999, "points": 0 }
+            ],
+            "age": [
+                { "min":   0, "max":  55, "points": 0 },
+                { "min":  55, "max":  60, "points": 3 },
+                { "min":  60, "max":  65, "points": 5 },
+                { "min":  65, "max":  70, "points": 7 },
+                { "min":  70, "max":  75, "points": 9 },
+                { "min":  75, "max":  80, "points": 12 },
+                { "min":  80, "max": 999, "points": 15 }
+            ]
+        }
+    ]
+    
+}

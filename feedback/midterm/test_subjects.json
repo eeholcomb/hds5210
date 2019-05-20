@@ -1,0 +1,13 @@
+[
+    { 
+        "risks": ["male","copd"],
+        "ef": 37,
+        "nhya": 2,
+        "creatinine": 131,
+        "bmi": 22,
+        "bp": 122,
+        "age": 66,
+        "note": "3 + 2 + 2 + 3 + 3 + 1 + 6",
+        "maggic": 20
+    }
+]

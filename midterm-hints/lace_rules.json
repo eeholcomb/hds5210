@@ -1,0 +1,19 @@
+{
+    "comorbidities": {
+        "previous myocardial infarction": 1,
+        "cerebrovascular disease": 1,
+        "peripheral vascular disease": 1,
+        "diabetes without complications": 1,
+        "congestive heart failure": 2,
+        "diabetes with end organ damage": 2,
+        "chronic pulmonary disease": 2,
+        "mild liver or renal disease": 2,
+        "any tumor (including lymphoma or leukemia)": 2,
+        "dementia": 3,
+        "connective tissue disease": 3,
+        "AIDS": 4,
+        "moderate or severe liver or renal disease": 4,
+        "metastatic solid tumor": 6
+    }
+}
+        

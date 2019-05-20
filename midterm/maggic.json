@@ -1,0 +1,13 @@
+{
+    "risk_factors": {
+        "male": 1,
+        "smoker": 1,
+        "diabetic": 3
+    },
+    "bmi": [
+        { "min":  0, "max": 15, "points": 6 },
+        { "min": 15, "max": 20, "points": 5 },
+        { "min": 20, "max": 25, "points": 3 },
+        { "min": 25, "max": 30, "points": 2 }
+    ]
+}
